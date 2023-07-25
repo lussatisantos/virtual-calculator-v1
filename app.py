@@ -1,9 +1,12 @@
 from style import estilo, linha
 from opt import main
-from calc_model import op
+from calc_model import multiplication
 
 estilo('Virtual Calculator v1.0')
 
 main()
 linha()
-n = op('Enter a number: ')
+opc = int(input('Enter a option: '))
+
+if opc == 1:
+    multiplication()
