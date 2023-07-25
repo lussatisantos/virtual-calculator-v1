@@ -4,7 +4,10 @@ def estilo(msg):
     print(msg)
     print('='*tam)
 
-def linha(msg):
+def linhas(msg):
     print('-'*20)
     print(msg)
+    print('-'*20)
+
+def linha():
     print('-'*20)
