@@ -13,7 +13,8 @@ def multiplication():
     print(f'The numbers entered are {num} and their multiplication is equal to {tot}')
 
 def division():
-    n1 = float(input('Numerator: '))
-    n2 = float(input('Denominator: '))
-    tot = n1 / n2
-    print(f'The {n1} division to {n2} is equal to {tot}')
+    while True:
+        n1 = float(input('Numerator: '))
+        n2 = float(input('Denominator: '))
+        tot = n1 / n2
+        print(f'The {n1} division to {n2} is equal to {tot}')
