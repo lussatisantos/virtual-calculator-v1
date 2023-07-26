@@ -10,3 +10,5 @@ opc = int(input('Enter a option: '))
 
 if opc == 1:
     multiplication()
+elif opc == 2:
+    
