@@ -1,4 +1,4 @@
-from style import estilo, linha
+from style import estilo, linha, linhas
 from opt import main
 from calc_model import multiplication, division, sum, sub
 
@@ -8,13 +8,18 @@ main()
 linha()
 opc = int(input('Enter a option: '))
 
-if opc == 1:
-    multiplication()
-elif opc == 2:
-    division()
-elif opc == 3:
-    sum()
-elif opc == 4:
-    sub()
-elif opc == 5:
-    
+while True:
+    if opc == 1:
+        multiplication()
+    elif opc == 2:
+        division()
+    elif opc == 3:
+        sum()
+    elif opc == 4:
+        sub()
+    elif opc == 5:
+        break
+    else:
+        print('Error: Invalid option, enter a valid one!!!')
+        opc = int(input('Enter a option: '))
+linhas('Thank u, come back')

@@ -51,6 +51,3 @@ def sub():
         elif opc == 'N':
             break
     print(f'The numbers entered are {num} and their sum is equal to {tot}')
-    
-def end_of():
-    
