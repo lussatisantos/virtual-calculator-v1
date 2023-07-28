@@ -10,7 +10,11 @@ opc = int(input('Enter a option: '))
 
 while True:
     if opc == 1:
+        linhas('Multiplication')
         multiplication()
+        cont = int(input('0 to continue or 1 to back menu: '))
+        if cont == 1:
+            opc = int(input('Enter a option: '))
     elif opc == 2:
         division()
     elif opc == 3:
