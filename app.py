@@ -62,4 +62,4 @@ while True:
     else:
         print('Error: Invalid option, enter a valid one!!!')
         opc = int(input('Enter a option: '))
-estilo('Thank u, come back')
+estilo('THANK U, COME BACK')
