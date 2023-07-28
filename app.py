@@ -12,9 +12,15 @@ while True:
     if opc == 1:
         linhas('Multiplication')
         multiplication()
+        print()
         cont = int(input('0 to continue or 1 to back menu: '))
         if cont == 1:
+            estilo('Virtual Calculator v1.0')
+            main()
+            linha()
             opc = int(input('Enter a option: '))
+            linha()
+            print()
     elif opc == 2:
         division()
     elif opc == 3:
@@ -26,4 +32,4 @@ while True:
     else:
         print('Error: Invalid option, enter a valid one!!!')
         opc = int(input('Enter a option: '))
-linhas('Thank u, come back')
+estilo('Thank u, come back')

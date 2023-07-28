@@ -10,7 +10,9 @@ def multiplication():
             opc = str(input('Please: enter [Y/N] to continue: ')).strip().upper()[0]
         elif opc == 'N':
             break
-    print(f'The numbers entered are {num} and their multiplication is equal to {tot}')
+    print()
+    print(f'The numbers entered are {num}')
+    print(f'Multiplication is equal to {tot}')
 
 def division():
     while True:
