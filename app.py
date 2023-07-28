@@ -46,7 +46,17 @@ while True:
             linha()
             print()
     elif opc == 4:
+        linhas('SUBTRACTION')
         sub()
+        print()
+        cont = int(input('0 to continue or 1 to back menu: '))
+        if cont == 1:
+            estilo('Virtual Calculator v1.0')
+            main()
+            linha()
+            opc = int(input('Enter a option: '))
+            linha()
+            print()
     elif opc == 5:
         break
     else:
