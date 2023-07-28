@@ -38,3 +38,17 @@ def sum():
             break
     print(f'The numbers entered are {num} and their sum is equal to {tot}')
     
+def sub():
+    num = []
+    while True:
+        n = float(input('Enter a number: '))
+        num.append(n)
+        tot = n
+        nume = tot - n
+        opc = str(input('Do you want to continue? [Y/N]: ')).strip().upper()[0]
+        if opc not in 'YN':
+            opc = str(input('Please: enter [Y/N] to continue: ')).strip().upper()[0]
+        elif opc == 'N':
+            break
+    print(f'The numbers entered are {num} and their sum is equal to {tot}')
+    

@@ -1,6 +1,6 @@
 from style import estilo, linha
 from opt import main
-from calc_model import multiplication, division, sum
+from calc_model import multiplication, division, sum, sub
 
 estilo('Virtual Calculator v1.0')
 
@@ -14,3 +14,5 @@ elif opc == 2:
     division()
 elif opc == 3:
     sum()
+elif opc == 4:
+    sub()
