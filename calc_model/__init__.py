@@ -1,6 +1,6 @@
 def multiplication():
     """
-    This def to numbers multiplication.
+    This def to multiplication numbers.
 
     Don't receive params, every account is doable within def
     All value are entered to loop, var NUM receive and put on list and var TOT multi all and show results
@@ -21,6 +21,11 @@ def multiplication():
     print(f'Multiplication is equal to {tot}')
 
 def division():
+    """
+    This def to division numbers.
+
+    Don't receive params, do calculus with two numbers and has loop to continue
+    """
     while True:
         n1 = float(input('Numerator: '))
         n2 = float(input('Denominator: '))
