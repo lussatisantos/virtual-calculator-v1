@@ -24,7 +24,7 @@ def division():
     """
     This def to division numbers.
 
-    Don't receive params, do calculus with two numbers and has loop to continue
+    Don't receive params, do calculus within loop, and a condition to continue
     """
     while True:
         n1 = float(input('Numerator: '))
@@ -38,6 +38,12 @@ def division():
             break
 
 def sum():
+    """
+    This def to sum numbers.
+
+    Don't receive params, every account is doable within def
+    All value are entered to loop, var NUM receive and put on list and var TOT sum all numbers entered and show results
+    """
     tot = 0
     num = []
     while True:
