@@ -1,4 +1,9 @@
 def multiplication():
+    """
+    This def to numbers multiplication.
+
+    Don't receive params, every account is doable within def
+    """
     tot = 1
     num = []
     while True:
