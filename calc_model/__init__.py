@@ -3,6 +3,7 @@ def multiplication():
     This def to numbers multiplication.
 
     Don't receive params, every account is doable within def
+    All value are entered to loop, var NUM receive and put on list and var TOT multi all and show results
     """
     tot = 1
     num = []
