@@ -58,6 +58,12 @@ def sum():
     print(f'The numbers entered are {num} and their sum is equal to {tot}')
     
 def sub():
+    """
+    This def to subtraction numbers.
+
+    Don't receive params, every account is doable within def
+    All value are entered to loop, var NUM receive and put on list and var TOT subtract all numbers entered and show results
+    """
     num = []
     while True:
         n = float(input('Enter a number: '))
